@@ -1,0 +1,173 @@
+﻿"ProgramName","DemoURL","URL","Description","Types","ProvideDeptName","AgencyCodes","ContactAgency","ContactName","ContactEmail","Tel","Extension","PracticalCase","Teches","Authorization","VulnerabilityScan","ApiInfo"
+"公托報名管理系統（後端）","","https://github.com/moda-gov-tw/civic-tech-experimental-field-find-babycare-backend;","本案為「112年數位發展部公民科技試驗場域示範案」由「一起加油陣線」團隊開發的「公托申請數位流程優化」透過與臺中市政府社會局的合作，提供既有公托申請流程解方，開發一申請公托的整合平臺，提供申請、查詢、審核及管理等功能。本案為示範案例尚未正式上線提供服務。","表單填寫/資料上傳;個案管理;地圖資訊呈現","數位發展部","A29000000G","數位發展部","張汶庭","karenwtchang@moda.gov.tw","(02)23800322","","","Vue.js;HTML/CSS;Javascript;PHP;MySQL;Laravel","","OWASP,;",""
+"公托報名管理系統（前端）","","https://github.com/moda-gov-tw/civic-tech-experimental-field-find-babycare-frontend;","本案為「112年數位發展部公民科技試驗場域示範案」由「一起加油陣線」團隊開發的「公托申請數位流程優化」透過與臺中市政府社會局的合作，提供既有公托申請流程解方，開發一申請公托的整合平臺，提供申請、查詢、審核及管理等功能。本案為示範案例尚未正式上線提供服務。","表單填寫/資料上傳;個案管理;地圖資訊呈現","數位發展部","A29000000G","數位發展部","張汶庭","karenwtchang@moda.gov.tw","(02)23800322","","","Vue.js;HTML/CSS;Javascript;PHP;MySQL;Laravel","","OWASP,;",""
+"數位憑證皮夾 發行端/驗證端服務模組","","https://github.com/moda-gov-tw/TWDIW-official-app/tree/main/core-system;","數位憑證皮夾技術架構概述
+數位憑證皮夾以 安全與隱私保護 為核心設計理念，結合分散式識別（Decentralized Identity, DID）與可驗證憑證（Verifiable Credential, VC）技術，確保使用者的數位證件在任何情況下都能安全掌控。
+ 無論是資料儲存、授權驗證或跨機關互信，整體架構皆以「使用者自主、安全可信」為最高原則。
+驗證三角架構
+整體系統由三大核心元件構成：
+●	數位憑證皮夾 App：安裝於使用者行動裝置，作為數位證件與憑證的載體。
+●	發行端模組：由各機關或組織部署，負責簽發數位憑證。
+●	驗證端模組：由受理單位部署，用以驗證使用者所出示的憑證真偽。
+三者共同構築了安全、可信、分散式的「驗證三角」架構。
+數位憑證皮夾 App 與發行端、驗證端服務間的所有互動，皆透過 App SDK 實現。","OID4VC;OID4VP;共用元件;共用程式配置","數位發展部","A29000000G","數位發展部","郭羽蓁","yujhen@moda.gov.tw","02-23800337","","","Java","","iForensics,發行端 OID4VCI 核心系統服務源碼檢測報告;iForensics,發行端 VC 核心系統服務源碼檢測報告;iForensics,驗證端 OID4VP 核心系統服務源碼檢測報告;iForensics,驗證端 VP 核心系統服務源碼檢測報告;","數位憑證皮夾發證端驗證端API,提供各中央與地方機關、公共服務業者及合作廠商於導入「數位憑證皮夾」生態系時所需的完整技術依據。透過統一的 API 介接規格，協助發行端、持有端與驗證端之間，以符合 OID4VCI 與 OID4VP 國際標準的方式安全交換 Verifiable Credential（VC）與 Verifiable Presentation（VP）。同時，本文件亦定義存取控制、交易追蹤與異常處理機制，確保跨單位整合時的安全性、可追溯性與法規遵循，支持政府及民間單位快速上線對應服務。,https://github.com/moda-gov-tw/TWDIW-official-app/blob/main/Docs/TWDIW_API_Specification.md;"
+"消防設備自行申報自動排程系統(前端)","","https://github.com/shuanowenLiou/tt-reservation-2026-main-v2;","消防安全設備檢修線上申報系統，民眾可快速上傳申報書並追蹤案件進度，數位化管理讓審核更有效率。","簡易消防自主申報;數位化管理","數位發展部","A29000000G","數位發展部","張汶庭","karenwtchang@moda.gov.tw","02-23800322","","","Node.js;Javascript;MySQL;Python;React;Docker","","Fortify,OWASP 版本 OWASP Top 10 2021;",""
+"災防資料彙整系統(後端)","","https://github.com/shuanowenLiou/tainan-ai-driven-data-hub-main-20251113T060529Z-1-001;","本案為「114年數發部公民科技試驗場域」專案，由「全部攏 ài 予我災」團隊與臺南市政府智慧發展中心共同合作開發之「災防資料彙整系統」。本系統協助市府單位在災害發生時，各局處可將初步彙整之災害統計資料以 excel表形式上傳，讓AI進行判讀轉為為統一json格式，並使用自然語言對話快速取得資料彙總結果。","表單填寫/資料上傳;管理功能;全域欄位設定;資料集設定;AI對話","數位發展部","A29000000G","數位發展部","張汶庭","karenwtchang@moda.gov.tw","02-23800322","","","Vue.js;Javascript;Tailwind CSS","","Fortify,OWASP 版本 OWASP Top 10 2021;",""
+"兒童早療聯合評估門診待排人數線上查詢系統(後端)","","https://github.com/shuanowenLiou/dowcd-ei-main;","本案為「數位發展部公民科技試驗場域示範案」由「OneStep MAP」團隊開發的「兒童早療聯合評估門診待排人數線上查詢系統」，透過與桃園市政府婦幼局的合作，讓家長可即時查詢各醫院早療聯評門診的等候人數，並提供醫院個管師更新等候人數的管理介面及婦幼局工作人員的查詢後台。本案為示範案例尚未正式上線提供服務。","管理功能;排隊人數管理","數位發展部","A29000000G","數位發展部","張汶庭","karenwtchang@moda.gov.tw","02-23800322","","","Python","","Fortify,OWASP 版本 OWASP Top 10 2021;",""
+"跑者驛站-友善運動地圖(前端)","","https://github.com/shuanowenLiou/run-meetup-hub-main;","本案為「數位發展部公民科技試驗場域示範案」由「MW RUN TEAM」團隊開發的「跑者驛站-友善運動地圖」，為一個團練／活動管理示範專案，主要功能是讓使用者建立、瀏覽並加入路跑或團體練習類活動，支援地圖視覺化活動位置、活動卡片列表、活動詳細頁面與活動建立介面。本案為示範案例尚未正式上線提供服務。","管理功能;活動卡片與列表;地圖視覺化","數位發展部","A29000000G","數位發展部","張汶庭","karenwtchang@moda.gov.tw","02-23800322","","","TypeScript;React","","Fortify,OWASP 版本 OWASP Top 10 2021;",""
+"數位憑證皮夾 APP SDK","","https://github.com/moda-gov-tw/TWDIW-official-app/tree/main/APP/APPSDK;","數位憑證皮夾技術架構概述
+數位憑證皮夾以 安全與隱私保護 為核心設計理念，結合分散式識別（Decentralized Identity, DID）與可驗證憑證（Verifiable Credential, VC）技術，確保使用者的數位證件在任何情況下都能安全掌控。
+ 無論是資料儲存、授權驗證或跨機關互信，整體架構皆以「使用者自主、安全可信」為最高原則。
+驗證三角架構
+整體系統由三大核心元件構成：
+●	數位憑證皮夾 App：安裝於使用者行動裝置，作為數位證件與憑證的載體。
+●	發行端模組：由各機關或組織部署，負責簽發數位憑證。
+●	驗證端模組：由受理單位部署，用以驗證使用者所出示的憑證真偽。
+三者共同構築了安全、可信、分散式的「驗證三角」架構。
+數位憑證皮夾 App與發行端、驗證端服務間的所有互動，皆透過 App SDK 實現。","SD-JWT;P-256橢圓曲線加密;W3C DID;OID4VC;OID4VP","數位發展部","A29000000G","數位發展部","郭羽蓁","yujhen@moda.gov.tw","02-23800337","","","Flutter","","Fortify,;",""
+"臺北程式設計節活動網站","https://codefest.taipei/welcome/","https://github.com/taipei-doit/codefest.taipei;","臺北市政府資訊局自112年起持續辦理「臺北程式設計節」之開源推廣活動，本次開發新版活動網站，供主辦單位發布活動資訊及開放使用者報名參加，將活動網站部署於雲端環境以提高靈活性，同時落實臺北市政府資訊局開源精神，開放原始碼及經營專案社群，以促進開發者交流回饋及達成開源公共程式的延續性。
+
+本網站為活動報名網站模板，各機關可參考此網站模板進行利用開發。","競賽規則;重要時程;FAQ","臺北市政府資訊局","379730000A","臺北市政府資訊局","李冠弦","g60419@gov.taipei","02-27208889 ","51713","","Node.js;Nuxt;NPM","","SonarQube,;",""
+"Yascms","https://www.bjes.tp.edu.tw","https://github.com/bjes/yascms;","學校網站系統","學校網站","臺北市中山區濱江國小","343611","臺北市中山區濱江國小","吳佳寰","william@bjes.tp.edu.tw","","","濱江國小,https://www.bjes.tp.edu.tw,無障礙檢測結果：無障礙標章申請中;","Python;MariaDB","AGPL 3.0","Fortify,移除test data後掃描，無中高以上風險;",""
+"臺南市登革熱防疫現場數位工具 - 後端","","https://github.com/moda-gov-tw/civic-tech-experimental-field-dengue-backend;","本案為「112年數位發展部公民科技試驗場域示範案」由「好想打流感」團隊開發的「臺南市登革熱防疫現場數位工具」透過與臺南市政府衛生局的合作，協助開發數位工具以簡化登革熱防治工作上的流程，並改善目前繁瑣的人工確認作業及掌握更即時的資訊。","表單填寫/資料上傳;個案管理;地圖資訊呈現;資料一覽/檢索;數據呈現","數位發展部","A29000000G","數位發展部","張汶庭","karenwtchang@moda.gov.tw","02-23800322","","","Node.js;Firebase Realtime Database;Vue.js;HTML/CSS;Javascript","","OWASP,;",""
+"臺南市登革熱防疫現場數位工具 - 前臺","","https://github.com/moda-gov-tw/civic-tech-experimental-field-dengue-frontend;","本案為「112年數位發展部公民科技試驗場域示範案」由「好想打流感」團隊開發的「臺南市登革熱防疫現場數位工具」透過與臺南市政府衛生局的合作，協助開發數位工具以簡化登革熱防治工作上的流程，並改善目前繁瑣的人工確認作業及掌握更即時的資訊。","表單填寫/資料上傳;個案管理;地圖資訊呈現;資料一覽/檢索;數據呈現","數位發展部","A29000000G","數位發展部","張汶庭","karenwtchang@moda.gov.tw","02-23800322","","","Node.js;Vue.js;HTML/CSS;Javascript;MongoDB","","OWASP,;",""
+"臺南淹水避難點警示及引導","","https://github.com/tainancity/tainanthon2024-floodguard;","本專案為「2024年AI台南數位城市治理黑客松」由公民團隊基於凱米颱風溢堤事件民眾避難路線受阻問題，開發結合避難路徑規劃功能的應用系統，整合臺南市避難收容處所資料，並透過群眾回報機制收集即時路況資訊，協助在災時找到可通行的安全避難路線，輔助提升災害應變效率與避難安全。","表單填寫/資料上傳;地圖資訊呈現","臺南市政府","376610000A","臺南市政府智慧發展中心","謝秀琪分析師","dopcsn@mail.tainan.gov.tw","06-2991111","8909","","HTML/CSS;Javascript;Python","","Fortify,;",""
+"數位名片","","https://github.com/moda-gov-tw/DB-Card;","因應數位化時代對隱私保護的重視，數位發展部於 2025 年7月開發此開源 NFC數位名片系統。有別於傳統需要後端伺服器儲存個資的數位名片，本專案採用「隱私優先」理念，將個人資料直接儲存在 NFC 卡片中，透過純前端架構實現一觸即用的數位名片功能。內建多層安全防護機制，包含 DOMPurify 3.2.4 XSS 防護、URL 驗證與惡意資料過濾，確保使用者資料安全與隱私完全自主掌控。
+
+ [DB-Card 主要程式庫]　github連結描述：
+  完整的 NFC 數位名片系統前端程式碼，包含：
+  - 純前端 HTML/CSS/JavaScript 實作
+  - 多語言數位名片介面（中英文雙語）
+  - NFC 資料解析與動態渲染功能
+  - SecurityUtils 安全防護模組
+  - DOMPurify 3.2.4 XSS 防護機制
+  - QR Code 生成與 vCard 匯出功能
+  - 完整的安全測試與文件說明
+  - 部署用靜態資源檔案
+  註：本專案採用純前端架構，無需後端程式碼","多語系;NFC 一觸分享;隱私優先設計;動態名片渲染;智慧 vCard 匯出;安全防護機制","數位發展部","A29000000G","數位發展部資訊處","科長","iim0663418@moda.gov.tw","","","","HTML/CSS;Javascript;Responsive Web Design;DOMPurify;QRCode;SecurityUtils;NFC Data Exchange Format;CI/CD","","Fortify,;",""
+"地址標準寫法API","https://adrid.moi.gov.tw/","https://github.com/moistat/adrid-moi-gov;","本程式提供地址轉換為標準格式，並切割結構要素，如縣市、鄉鎮市區、路地名與號樓等，以利後續比對與分析，提升地址的可讀性與應用效率。
+(內政部為提升公部門資料整合效率，建立以數字及英文字母組成的地址識別碼(7碼流水號+1碼檢核碼)，如同地址身分證字號，本程式為比對地址識別碼程式之其中一環。)","地址正規化，將地址要件轉換為標準寫法;地址欄位切割","內政部","A01000000A","內政部統計處","陳昭如專員","moi1546@moi.gov.tw","02-2356-5537","","","Java;Spring Boot","MPL License 2.0","Fortify,OWASP Top 10 2021;Fortify,CWE Top 25;","地址標準寫法API,地址正規化將地址轉換為標準格式，統一字詞；而地址欄位切割則將完整地址拆解為縣市、區域、街道等結構化要素，以利後續比對與分析，提升地址的可讀性與應用效率。,https://adrid.moi.gov.tw/iisi/swagger-ui/index.html#/api-key-resource/queryStandardAddress;"
+"城市通架構","https://townpass.taipei/","https://github.com/taipei-doit/TownPass;","為持續朝向服務型政府目標邁進，並推廣開源及開放政策，臺北市政府資訊局希望透過「台北通」的經驗，逐步將開源技術融入，打造城市通。
+城市通架構為初步建立行政機關應用程式規劃的基底，依據公部門政策推廣與民眾經驗回饋進行相關介面架構設計，以期提供良好的使用體驗並增進行政效率。","市政應用程式框架","臺北市政府資訊局","379730000A","臺北市政府資訊局","高甄苡","","02-27208889","51827","","Dart;Flutter","AGPL-3.0","Checkmarx OWASP TOP 10,高風險：2(此為誤判將客服email認定為敏感個資)；中風險：0 ；低風險：12;",""
+"城市通服務","https://townpass.taipei/","https://github.com/taipei-doit/TownPass-Services;","臺北市政府資訊局希望透過「台北通」的經驗，逐步將開源技術融入，打造城市通。
+為優化更多市政服務，實踐更好的使用體驗、提升行政效率，另將城市通服務項目開源，並供各界取用，簡化開發流程，實現共創共益精神！","地圖資訊呈現;微服務","臺北市政府資訊局","379730000A","臺北市政府資訊局","高甄苡","","02-27208889 ","51827","","Vue.js;HTML/CSS;Javascript;TypeScript","AGPL-3","Checkmarx OWASP TOP 10,高風險：0；中風險：0；低風險：2;",""
+"災害影響評估平臺","","https://github.com/tainancity/tainanthon2024-water-resource-map-application;","本專案為「2024年AI臺南數位城市治理黑客松」由臺南市水利局與公民團隊「再水五分鐘」合作開發的災害影響評估平臺，主要功能是開發地圖範圍資訊標記工具，協助使用者可以在地圖上標記多邊形範圍（淹水影響範圍），自動計算該範圍的面積、戶數與人口數，輔助機關依淹水範圍評估災後影響，未來更可擴展為紀錄實際淹水範圍作為開放資料，以利外部利用與分析。","地圖資訊呈現;數據呈現","臺南市政府","376610000A","臺南市政府智慧發展中心","謝秀琪分析師","dopcsn@mail.tainan.gov.tw","06-2991111","8909","","Python;Dockerfile","MIT License","Fortify Source Code Analyzer,Critical:0  High:0  Medium:0  Low:0;",""
+"公有資產管理平臺(後端)","","https://github.com/tainancity/tainanthon2024-city-activitas-backend;","本專案為「2024年AI臺南數位城市治理黑客松」由臺南市財稅局與公民團隊「City Activitas」合作開發的公有資產管理平臺，協助單位將資料整合，並提供公產查詢、公產填報、上傳圖片、報表產製等功能，輔助單位進行公有資產管理。","表單填寫/資料上傳;資料一覽/檢索;數據呈現","臺南市政府","376610000A","臺南市政府智慧發展中心","謝秀琪分析師","dopcsn@mail.tainan.gov.tw","06-2991111","8909","","Python","MIT License","Fortify Source Code Analyzer,Critical:0  High:0  Medium:0  Low:6;",""
+"公有資產管理平臺(前端)","","https://github.com/tainancity/tainanthon2024-city-activitas;","本專案為「2024年AI臺南數位城市治理黑客松」由臺南市財稅局與公民團隊「City Activitas」合作開發的公有資產管理平臺，協助單位將資料整合，並提供公產查詢、公產填報、上傳圖片、報表產製等功能，輔助單位進行公有資產管理。","表單填寫/資料上傳;資料一覽/檢索;數據呈現","臺南市政府","376610000A","臺南市政府智慧發展中心","謝秀琪分析師","dopcsn@mail.tainan.gov.tw","06-2991111","8909","","HTML/CSS;Javascript;TypeScript","MIT License","Fortify Source Code Analyzer,Critical:0  High:0  Medium:0  Low:8;",""
+"無人機搜救影像辨識","","https://github.com/tainancity/tainanthon2024-drone-human-detection;","本專案為「2024年AI臺南數位城市治理黑客松」由臺南市消防局與公民團隊合作開發的自動化AI辨識搜救系統，系統使用RT-DETR模型架構進行影像辨識，通過邊緣運算即時處理空拍畫面並定位目標，輔助搜救人員快速搜尋水中目標，提升搜救效率。","數據呈現","臺南市政府","376610000A","臺南市政府智慧發展中心","謝秀琪分析師","dopcsn@mail.tainan.gov.tw","06-2991111","8909","","Python","MIT License","Fortify Source Code Analyzer,Critical:0  High:0  Medium:0  Low:0;",""
+"動態模版Word文件生成系統","","https://github.com/moda-gov-tw/dynamic-template-doc-gen;","使用 Poi-tl 模板引擎作為核心技術，透過 Word 模板實現動態文檔生成。可適用於批量處理與高併發應用，如報告生成、合同製作和邀請函定制等。
+
+使用者只需在 Word 編輯器中設計模板，利用簡單的標記語法（如 {{name}}、{{table}} 等）定義占位符，便可設定所需的樣式與結構。程式端負責處理資料準備與格式轉換，包括資料組合、日期格式化、數值處理等。同時，支援複雜數據結構的動態綁定，如嵌套表格與多層資料，滿足不同的需求。","模板定義;產出檔案","數位發展部","A29000000G","數位發展部","廖家翎","gz14055@moda.gov.tw","02-2380-0327","","","Java;Spring Boot;Poi-tl","Apache License 2.0","Fortify SCA,Critical:0  High:0  Medium:0  Low:1;",""
+"使用者操作稽核記錄系統","","https://github.com/moda-gov-tw/user-operation-recording-module;","追蹤使用者在系統中的操作行為。該系統能夠即時捕捉並儲存重要的操作資訊，包括登入登出、資料查詢、修改、刪除及其他關鍵性操作，確保數據透明性與行為可追溯性。
+
+透過靈活的報表生成功能，管理者可快速檢視特定使用者或時間範圍內的操作記錄，輕鬆應對內部稽核需求與法規遵循。","行為追蹤;稽核報表","數位發展部","A29000000G","數位發展部","廖家翎","gz14055@moda.gov.tw","02-2380-0327","","","Spring Boot;Spring Data JPA;Hibernate;H2 Database","MIT","Fortify SCA,Critical:0  High:0  Medium:0  Low:2;",""
+"電子公文封裝檔附件名稱解析","","https://github.com/moenv-tw/docsi;","環境部因應經費核銷電子化作業需求，將經過簽章之電子公文封裝檔回傳預算會計系統供會計人員審核，惟封裝檔之附件名稱為雜湊字串組成，不易辨識，爰發展本程式將雜湊字串反推回原始附件檔名稱，以利會計人員辨識附件資訊。","文書處理;資料解析","環境部","A23000000I","環境部監測資訊司","余家光","ckyu@moenv.gov.tw","","","","C#;.NET","MIT License","CodeSecure,無弱點;",""
+"網站防竄改偵測系統","","https://github.com/moda-gov-tw/website-tampering-detection-system;","當特定網站或系統的檔案目錄需要時時監控以確保未經授權進行竄改時，本系統提供檔案目錄偵測及還原功能，解決系統中檔案遭受入侵竄改時難以及時發現與恢復的問題。
+
+本系統能即時偵測到目標系統中目錄中的變更狀態，並在發現檔案被竄改時，立即通知相關人員，同時自動還原目錄檔案的原始內容，達到保障系統安全維運與資料完整性的目的。
+
+簡列說明：
+1. 偵測紀錄查詢
+2. 偵測網站設定
+3. 通知設定
+4. 受竄改還原設定","訊息處理/通知;網站防竄改;檔案目錄偵測","數位發展部","A29000000G","數位發展部","廖家翎","gz14055@moda.gov.tw","02-2380-0327","","","Spring Boot;Spring Data JPA;Hibernate;H2 Database","MIT","Fortify SCA,Critical:0  High:0  Medium:0  Low:5;",""
+"數據分析圖示化網站","","https://github.com/moda-gov-tw/data-analysis-graph;","當需要將原始數據轉為可視化圖表時，本網站提供數據轉換為各類圖表的範例功能，解決了原始數據難以直觀呈現的問題。透過此功能，用戶能將複雜的數據轉換為易於理解的圖形，達到提升數據分析效率與視覺化呈現效果的目的。
+
+功能摘要：
+1. 前後端網站框架範例
+2. 資料透過Cytoscape轉換成各類圖形範例
+3. 使用Vue3刻劃頁面展示資料圖視化效果","資料/檔案轉換;圖視化;網站框架;數據分析","數位發展部","A29000000G","數位發展部","廖家翎","gz14055@moda.gov.tw","02-2380-0327","","","Vue.js;Javascript;Spring Boot;Cytoscape","MIT","Fortify SCA,Critical:0  High:0  Medium:0  Low:3;",""
+"檔案傳輸案件管理系統","","https://github.com/moda-gov-tw/files-flow-tran-shub;","當需要資訊系統自動化檔案傳輸進行集中管理，以有效稽核追蹤檔案傳輸紀錄及統計資料傳輸應用的績效時，本系統提供自動化檔案傳輸記錄及管理功能，解決跨系統傳輸檔案管理成本高昂且紀錄彙整錯誤繁瑣的問題。本系統可自動化執行依據註冊好的傳輸服務，取得來源與目的端的連線資訊，從來源端檔案伺服器下載檔案，並自動上傳至目的端伺服器。
+
+跨資訊系統整合時，亦可透過 REST API 發動檔案傳輸作業，系統則會將所有傳輸狀態與交換歷程詳細記錄至資料庫。透過簡單的管理介面，使用者能方便管理檔案傳輸設定與查看傳輸生命週期的紀錄，達到提升檔案傳輸效率與有效應用管理傳輸紀錄之目的。
+
+功能摘要：
+1. 來源端與目的端設定
+2. 檔案傳輸
+3. 檔案傳輸記錄
+4. SFTP連線測試","自動化;集中管理;介接/傳輸","數位發展部","A29000000G","數位發展部","廖家翎","gz14055@moda.gov.tw","02-2380-0327","","","Spring Boot;Spring Data JPA;Hibernate;H2 Database","Apache 2.0","Fortify SCA,Critical:0  High:0  Medium:0  Low:0;",""
+"資料檢核及安全處理系統","","https://github.com/moda-gov-tw/data-validation-and-security-processing-system;","當資訊系統需要進行後端資料檢核、遮罩或轉換時，本模組提供針對常見資料的檢核、轉換與解析功能，解決了後端資料處理中的準確性與安全性問題。透過這些功能，系統能夠有效確保資料的正確性與一致性，同時達到強化資料安全性的目的。
+
+功能摘要：
+1. 檢核日期、身分證字號、統編和數值轉換工具
+2. 數字轉中文
+3. 資料遮罩","資料處理/遮罩;資料解析;檢核;資料/檔案轉換","數位發展部","A29000000G","數位發展部","廖家翎","gz14055@moda.gov.tw","02-2380-0327","","","Java","MIT ","Fortify SCA,Critical:0  High:0  Medium:0  Low:1;",""
+"開放文件轉換系統","","https://github.com/moda-gov-tw/open-file-conversion-system;","當使用者需要將傳統Word、Excel或PDF進行開放文件格式轉換時，可透過本系統整合開放原始碼的 LibreOffice 文件轉換工具進行處理，解決了常見文件格式間直接轉換的問題，並可以進一步整合到定時整批排程處理的自動化處理作業中。
+
+本系統能夠高效地將 .docx、.xlsx、.xls、.pdf 等文件格式轉換為 HTML、PDF、DOCX、XLSX、PPTX 等多種開放文件目標格式，有效提升文件轉換效率與文件有效利用的兼容性。
+
+功能摘要：
+1. Office文件、PDF文件及ODF文件轉換。
+2. 各類文件轉換範例
+3. 批次排程自動化處理應用","自動化;排程;解析轉換","數位發展部","A29000000G","數位發展部","廖家翎","gz14055@moda.gov.tw","02-2380-0327","","","Java;Spring Boot","Apache License 2.0","Fortify SCA,Critical:0  High:0  Medium:0  Low:1;",""
+"多語系資料字典處理系統","","https://github.com/moda-gov-tw/multilingual-data-dictionary-processing-system;","在全球化應用或資料庫中，常需要處理來自不同語言的資料，這個系統提供特定語系的排序與比較功能，允許開發人員根據不同區域設置（如繁體中文、英文、德文等）的語言規則來進行資料處理，解決由於各國語系排序和比較規則不同而導致的數據錯誤或不一致問題，讓各國語言的字串排序和比較盡量依照本地語言的習慣。可以應用在客製化功能選單、特定語系的公告搜尋與排序、多語言的文件搜尋排序等。
+
+本系統以繁體功能處理為範例，確保繁體中文資料在操作中能依據設定要求保持正確性與一致性，從而各類應用的可靠性，亦能延伸應用在全球化與區域化系統。
+
+功能摘要：
+依據指定語言的規則來進行比較，例如，對於繁體中文會依照拼音或筆劃順序，而不是字母的順序。
+設定比較強度，例如：區分大小寫、區分重音或筆畫等。例如：比較字母，可忽略大小寫、重音符號或筆畫數量；或區分重音符號，但不區分大小寫。","多語系;搜尋與排序;字典;資料處理/遮罩","數位發展部","A29000000G","數位發展部","廖家翎","gz14055@moda.gov.tw","02-2380-0327","","","Java;Spring Boot","MIT","Fortify SCA,Critical:0  High:0  Medium:0  Low:1;",""
+"資料動態編碼轉換系統","","https://github.com/moda-gov-tw/data-encoding-transform;","資訊系統在提供創新服務而需要進行新舊系統整合時，當傳統資訊系統輸出的訊息或檔案無法以現代的資料標準進行處理，例如：無法處理XML或JSON格式轉換時，透過本系統提供傳統固定長度字串的動態處理功能，將符合特定位元代表特定欄位進行解析轉換，也解決了因文件編碼(encoding)長度不同而無法精準匹配的問題。
+
+本系統依據使用者定義的編碼長度，及所需的位元組(bytes)長度進行動態填充與轉換，確保字元及位元組內容符合預設定義。這一動態填充功能使訊息或檔案能夠精密轉換，從而加速新舊系統的轉換整合，達到快速運用新技術提供舊系統資料服務的目的。
+
+功能摘要：
+1. 自訂資料處理編碼。
+2. 自訂資料處理規則。
+3. 提供待處理檔案/訊息的管理。
+4. 提供訊息及檔案轉換範例。","訊息處理/通知;解析轉換;資料/檔案轉換","數位發展部","A29000000G","數位發展部","廖家翎","gz14055@moda.gov.tw","02-2380-0327","","","Vue.js;Java;Spring Boot","MIT","Fortify SCA,Critical:0  High:0  Medium:0  Low:0;",""
+"資料加密傳輸儲存系統","","https://github.com/moda-gov-tw/data-encrypt-system;","當資訊系統需要進行訊息或檔案傳輸時，可透過本系統設定安全高效的演算法(例如：Sha3_256或HMAC)作為核心加密技術，解決資訊系統在傳輸過程中敏感資訊可能遭受外洩的問題，並確保依照嚴格的安全標準進行防護。
+
+資訊系統可透過本系同提供的加密技術，應用在應用程式介面(API)請求驗證、資料簽章與密碼權杖的儲存，進而有效防範暴力破解、字典攻擊及重複性攻擊，達到保障資料安全的目的。
+
+功能簡列：
+1. 系統以網頁方式提供展示功能。
+2. 客製化的加密處理流程，包含參數字節流轉換、加鹽(Salt)處理、 Base64 編碼和加密雜湊結果合併。
+3.  基於密鑰的訊息驗證流程，允許使用固定密鑰對多個參數進行加密處理。並且具備高度靈活性，能夠根據業務需求進行擴展","加密;介接/傳輸;簽章","數位發展部","A29000000G","數位發展部","廖家翎","gz14055@moda.gov.tw","02-2380-0327","","","Vue.js;Java;Spring Boot","MIT","Fortify SCA,Critical:0  High:0  Medium:0  Low:0;",""
+"前端網站資料安全處理框架","","https://github.com/moda-gov-tw/fn-field-validation;","當開發人員需要快速開發電子表單網站系統時，採用本框架以前端技術Vue實作的前端表單資料處理功能，可解決開發過程中繁瑣的表單設計與欄位檢核問題。
+
+藉由使用此框架，開發人員可以迅速建立具備檢核功能的電子表單系統，達到加快開發速度與提升效率的目的。
+
+功能摘要：
+1. 提供以Vue為基礎的前端網頁框架。
+2. 提供一鍵佈署之應用程式範例。
+3. 提供彈性擴充驗證規則之表單欄位。
+4. 提供欄位驗證範例：中、英文姓名檢核、檔案大小、附檔名檢核、證件號碼檢核。","表單填寫/資料上傳;安全框架;檢核","數位發展部","A29000000G","數位發展部","廖家翎","gz14055@moda.gov.tw","02-2380-0327","","","Vue.js;Javascript;TypeScript;Nuxt;Nuxt UI","MIT","Fortify SCA,Critical:0  High:0  Medium:0  Low:0;",""
+"資料安全傳輸驗證系統","","https://github.com/moda-gov-tw/t-road-file-transfer-message-and-api-message-notify-test-module;","機關資訊系統間的資料傳輸以T-Road的安控伺服器(Secure Server，以下簡稱SS)進行傳輸時，因實體隔離的內部網路環境，技術人員不容易取得測試訊息進行問題分析的困境；透夠過本系統提供跨機關介接SS之驗證服務，可以驗證資訊傳輸是否符合介接訊息規格及應用程式介面(API)規範，解決在封閉網路環境下無法取得完整資訊分析的問題，進而加速跨機關間透過T-Road進行安全資料傳輸的轉換。
+
+因此，透過本系統可協助開發人員在處理跨機關資訊系統介接時，於實體隔離的封閉網路情境下，仍能配合以安全的方式進行測試除錯，進而加速各業務系統轉換介接T-Road。
+
+功能摘要：
+1. 模擬T-Road安控伺服器(Secure Server)檔案傳輸及訊息傳輸API。
+2. 模擬T-Road SS傳輸資料base64轉換。
+3. 模擬T-Road SS必要參數之檢核。
+4. 輸出T-Road SS介接模擬訊息完整Log。","安全驗證;訊息處理/通知;介接/傳輸","數位發展部","A29000000G","數位發展部","廖家翎","gz14055@moda.gov.tw","02-2380-0327","","","Java;Spring Boot","MIT","Fortify SCA,Critical:0  High:0  Medium:0  Low:1;",""
+"個人資料介接服務驗證系統","","https://github.com/moda-gov-tw/mydata-notify-and-authentication-testing-module;","資訊系統在提供個人資訊的處理過程中，確保資料傳輸的機密性及完整性很重要；因此本系統以MyData平台之資訊傳輸之驗證服務為範例，提供符合個人資料傳輸安全處理的程序及步驟，包含個人資料的請求方式、安全權杖的驗證及個人資料的封裝，支援訊息及檔案傳輸格式的傳輸功能驗證。
+
+透過本系統，可協助改善技術人員因不熟悉處理個人資訊訊息流程及錯誤處理機制，而在開發測試過程中耗時費力的情境，加速將機關資訊系統個人資料提給例如MyData等平台的創新服務應用。
+
+功能摘要：
+1. 模擬資訊服務提供者(Service Provider)、資料請求者(Data Requester)及資料提供者(Data Provider)間，進行安全地進行個人資料傳輸步驟。
+2. 模擬MyData權杖驗證流程及訊息處理流程。
+3. 模擬MyData平台必要參數之檢核。
+4. 輸出MyData介接訊息完整Log。","安全驗證;訊息處理/通知;介接/傳輸","數位發展部","A29000000G","數位發展部","廖家翎","gz14055@moda.gov.tw","02-2380-0327","","","Java;Spring Boot","MIT","Fortify SCA,Critical:0  High:0  Medium:0  Low:1;",""
+"Green Web 網頁碳排計算機","https://greenweb.moda.gov.tw","https://github.com/moda-gov-tw/tw-web-carbon;","本網站為數位發展部113年度綠色數位行為淨零發展計畫的成果網站，包含網頁碳排計算功能、成果專區、網際網路永續設計指引（草案）。","碳排計算機","數位發展部","A29000000G","數位國際司","陳祈安","cachen@moda.gov.tw","02-2380-0343","","","Vue.js;PHP","Apache","GTONE SecurityPrism,Critical 0， Rec.-High 0， Rec.-Middle 0， Rec.-Low 0;",""
+"Green Web網站","https://greenweb.moda.gov.tw","https://github.com/moda-gov-tw/tw-greenweb;","本網站為數位發展部113年度綠色數位行為淨零發展計畫的成果網站，包含網頁碳排計算功能、成果專區、網際網路永續設計指引（草案）。","碳排計算機","數位發展部","A29000000G","數位國際司","陳祈安","cachen@moda.gov.tw","02-2380-0343","","","Vue.js;PHP","CC0","GTONE SecurityPrism,Critical 0， Rec.-High 0， Rec.-Middle 0， Rec.-Low 0;",""
+"政府資料開放平臺前端","","https://github.com/moda-gov-tw/opendata-frontend;","本專案為政府資料開放平臺前端開源，透過開源程式提供政府機關或民間團體，作為發展資料開放應用的參考，共同為政府開放資料盡一份心力。","資料一覽/檢索","數位發展部","A29000000G","數位發展部 多元創新司","曾華伶分析師","lynntseng@moda.gov.tw","02-23800392","","政府資料開放平臺,https://data.gov.tw/,無障礙檢測結果：AA;","Vue.js;HTML/CSS;Javascript;TypeScript","MIT License","SonarQube,;",""
+"公共程式平臺","https://code.gov.tw/","https://github.com/moda-gov-tw/code-gov-tw;","公共程式平臺鼓勵跨機關、產業和公眾都可共同使用、 檢視、修正政府數位服務或系統的程式碼，將可促進機關數位交流，共同提升政府公共服務品質、提升政府公開透明。","資料一覽/檢索","數位發展部","A29000000G","數位發展部","廖家翎","gz14055@moda.gov.tw","02-2380-0327","","公共程式平臺,https://code.gov.tw/,無障礙檢測結果：AAA;","Vue.js;HTML/CSS;MySQL","MIT","GitHub CodeQL,;GitHub Dependabot Alerts,;OWASP ZAP,;SonarQube,;",""
+"publiccode.yml Standard","","https://github.com/moda-gov-tw/publiccodeyml-publiccode.yml/;","一種針對公共軟體的詮釋資料（metadata）描述標準，這標準對開發者以及技術背景較淺的人士都易於使用，目的是讓由公共行政機關和公共組織開發的軟體容易被發現。","標準","數位發展部","A29000000G","數位發展部","廖家翎","gz14055@moda.gov.tw","02-2380-0327","","公共程式平臺,https://code.gov.tw/,無障礙檢測結果：AAA;","Python","CC0 v1.0","本專案為在地化成果，未涉及軟體開發作業。,;",""
+"Matrix Client (Element Series) matrix-react-sdk","","https://github.com/moda-gov-tw/matrix-org.matrix-react-sdk/;","Element 是 Matrix 核心團隊基於去中心化標準開發的開放原始碼通訊軟體。此為該服務底層的 matrix-react-sdk ，可用於建置各種其他軟體。可應用網際網路 IP based 進行即時通訊。基於其開放特性，可整合其他程式，快速建構即時交換資料系統。除此之外，亦可與 Slack、Telegram 等其它通訊軟體進行串聯。","即時通訊","數位發展部","A29000000G","數位發展部","廖家翎","gz14055@moda.gov.tw","02-2380-0327","","","HTML/CSS;Javascript;TypeScript;React","Apache-2.0","本專案為在地化成果，未涉及軟體開發作業。,;",""
+"GOV.UK Forms Admin","","https://github.com/moda-gov-tw/alphagov.forms-admin/;","GOV.UK Forms 是英國 GDS 政府數位服務團隊維運之公部門線上表單平台。此為該服務背後的管理軟體。此服務開放程式原始碼，可提供政府各機關與單位利用該平台之模版，建立可供外部填寫之簡易表單。 此服務具有自動檢查遞交內容功能，確認回填資料正確性；範本功能讓使用更便利；可追蹤表單遞交狀態，衡量表單的易用性。程式設計符合英國政府制定之網路安全標準，保護資料安全。","表單填寫/資料上傳","數位發展部","A29000000G","數位發展部","廖家翎","gz14055@moda.gov.tw","02-2380-0327","","","HTML/CSS;Ruby;SCSS","MIT License","本專案為在地化成果，未涉及軟體開發作業。,;",""
+"數位發展部全球資訊網","https://moda.gov.tw/","https://github.com/moda-gov-tw/moda-official-website-full;","數位發展部全球資訊網，體現政府與民眾、政府與政府間傳遞數位發展規劃理念及施政成果的網站，是完整的內容管理系統（Content Management System）；發展之初即規劃整體程式原始碼開放予各界，提供一套可以參考的解決方案，方便應用情境相似的機關團體 Fork 使用；網站以使用者為中心設計、符合網站無障礙規範、提供多國語系架構、支援全站靜態化。","表單填寫/資料上傳;資料一覽/檢索","數位發展部","A29000000G","數位發展部 資訊處","許展銘","targee@moda.gov.tw","02-23800402","","數位發展部全球資訊網,https://moda.gov.tw/,無障礙檢測結果：AA;","HTML/CSS;Javascript;ASP.NET Core;C#;SQL Server","MIT License","Checkmarx,;",""
+"Lighthouse 平臺","https://lighthouse.pdis.run/","https://github.com/PDIS/lighthouse;","Lighthouse 平臺使用 GitHub Actions 自動執行 Lighthouse 掃描，將報告集中展示。 Lighthouse 是一個開源的自動化工具，用於改善網頁的效能、品質和正確性。 Lighthouse 對網頁進行一系列測試並產生一份報告及評分。透過報告，我們可以審視未通過測試的項目以了解如何改進。","網頁效能檢測","行政院公共數位創新空間（PDIS）","pdis","行政院公共數位創新空間（PDIS）",,"all@pdis.nat.gov.tw",,"","Lighthouse 平臺,https://lighthouse.pdis.run/,無障礙檢測結果：AAA;","Lighthouse","CC0-1.0","GitHub CodeQL,;GitHub Dependabot Alerts,;",""
+"Yivi (IRMA)","","https://github.com/moda-gov-tw/privacybydesign.irmamobile/;","Yivi 是開放原始碼的身份驗證服務。此為該服務 App 的原始碼。此服務可因應不同需求，讓使用者可選擇不同程度的身份資料揭露。個人資料將以 PIN 碼加密的方式儲存在裝置中。使用者可以自行掌控個人資料，進行無密碼驗證登入網站、簽署文件等目的。","身份驗證","數位發展部","A29000000G","數位發展部","廖家翎","gz14055@moda.gov.tw","02-2380-0327","","","Go;Dart;Java","GPL v3","本專案為在地化成果，未涉及軟體開發作業。,;",""
+"GOV.UK Notify","","https://github.com/moda-gov-tw/notifications-admin/;","GOV.UK Notify 是英國 GDS 政府數位服務團隊維運的公部門業務訊息傳遞服務平台。業務訊息包含電子郵件、簡訊、信函等。此為該服務背後的 Admin 管理頁面。這服務讓使用者無需程式編碼能力也可以編輯預設訊息範本、追蹤訊息傳送狀態、手動或自動傳送訊息。此程式提供開放原始碼，各單位可以整合需要的功能至自己的業務系統或平台以增加訊息傳遞與通知的功能。","公共服務通知","數位發展部","A29000000G","數位發展部","廖家翎","gz14055@moda.gov.tw","02-2380-0327","","","HTML/CSS;Javascript;Python","MIT License","本專案為在地化成果，未涉及軟體開發作業。,;",""
+"Standard for Public Code","","https://github.com/moda-gov-tw/publiccodenet.standard/;","Standard for Public Code 是由公共程式碼基金會（Foundation for Public Code）所制定的公共程式標準。目的為提供政府不同部門或協作組織之間，依循標準及指南開發軟體時，以利後續進行互相協作開發，並且重複使用各自的成果。此標準有利於公家機關透過協作方式，創造出好用、開放、易懂、課責、近用、永續的程式基底。","標準","數位發展部","A29000000G","數位發展部","廖家翎","gz14055@moda.gov.tw","02-2380-0327","","","HTML/CSS;Shell","CC0 v1.0","本專案為在地化成果，未涉及軟體開發作業。,;",""
+"Matrix Client (Element Series) Web","","https://github.com/moda-gov-tw/vector-im.element-web/;","Element 是 Matrix 核心團隊基於去中心化標準開發的開放原始碼通訊軟體。此為該服務基於 matrix-react-sdk 建置的網頁版軟體。可應用網際網路 IP based 進行即時通訊。基於其開放特性，可整合其他程式，快速建構即時交換資料系統。除此之外，亦可與 Slack、Telegram 等其它通訊軟體進行串聯。","即時通訊","數位發展部","A29000000G","數位發展部","廖家翎","gz14055@moda.gov.tw","02-2380-0327","","","HTML/CSS;Javascript;TypeScript;React","Apache-2.0","本專案為在地化成果，未涉及軟體開發作業。,;",""
+"GOV.UK Forms Product Pages","","https://github.com/moda-gov-tw/alphagov.forms-product-page/;","GOV.UK Forms 是英國 GDS 政府數位服務團隊維運之公部門線上表單平台。此為該服務的頁面產生器。此服務開放程式原始碼，可提供政府各機關與單位利用該平台之模版，建立可供外部填寫之簡易表單。 此服務具有自動檢查遞交內容功能，確認回填資料正確性；範本功能讓使用更便利；可追蹤表單遞交狀態，衡量表單的易用性。程式設計符合英國政府制定之網路安全標準，保護資料安全。","表單填寫/資料上傳","數位發展部","A29000000G","數位發展部","廖家翎","gz14055@moda.gov.tw","02-2380-0327","","","HTML/CSS;Ruby;SCSS","MIT License","本專案為在地化成果，未涉及軟體開發作業。,;",""
+"ODF文件應用工具","https://moda.gov.tw/digital-affairs/digital-service/app-services/248","https://github.com/MODAODF/MODA_ODF_Application_Tools;","為引導公務機關從文件製作、保存均以開放文件格式(ODF)處理，且使政府ODF文件能跨機關流通，本部基於開放文件軟體，發展適合公務機關使用之「ODF文件應用工具」，提供編輯標準ODF文件及支援CNS11643中文標準交換碼全字庫，並提供 Q＆A 問題回報程式，建立客服流程及諮詢服務，並將相關問題與回應提供其他使用者查詢。","文書處理","數位發展部","A29000000G","數位發展部 數位政府司","黃煌洲","huangchou@moda.gov.tw","02-2380-0225","","","Open Document Format;C++","LGPL-3.0、MPL-2.0","SonarQube,;",""
+"行政院公共數位創新空間（PDIS）部落格","https://pdis.nat.gov.tw/","https://github.com/PDIS/web-jekyll;","行政院公共數位創新空間（PDIS）部落格。 一套使用 Jekyll 靜態網站生成器，從純文字的 markdown 文件產生靜態 HTML 的系統。具備中、英文雙語系。","靜態網站產生器;自動翻譯","行政院公共數位創新空間（PDIS）","pdis","行政院公共數位創新空間（PDIS）",,"all@pdis.nat.gov.tw",,"","行政院公共數位創新空間（PDIS）部落格,https://pdis.nat.gov.tw/,無障礙檢測結果：AAA;","Jekyll;Cloud Translation API","除另有標示外，內容以創用 CC BY 4.0 授權條款釋出。","GitHub CodeQL,;GitHub Dependabot Alerts,;",""
+"Yivi (IRMA) scheme manager","","https://github.com/moda-gov-tw/privacybydesign.pbdf-schememanager;","Yivi 是開放原始碼的身份驗證服務。此為該服務管理器的原始碼。因應不同需求，使用者可選擇不同程度的身份資料揭露。個人資料將以 PIN 碼加密的方式儲存在裝置中。使用者可以自行掌控個人資料，進行無密碼驗證登入網站、簽署文件等目的。","身份驗證","數位發展部","A29000000G","數位發展部","廖家翎","gz14055@moda.gov.tw","02-2380-0327","","","Python;Shell","GPL v3","本專案為在地化成果，未涉及軟體開發作業。,;",""
+"publiccode.yml Editor","","https://github.com/moda-gov-tw/italia-publiccode-editor;","這個應用程式幫助您為您的專案創建並驗證一個 publiccode.yml 檔案。只需填寫表單即可生成一個符合最新標準的 YAML 檔案，然後您可以下載或複製到您的專案根目錄中。您也可以使用這個應用程式來檢查並糾正現有的 publiccode.yml 檔案。只需上傳檔案進行導入，應用程式將進行驗證並幫助修正任何問題。","公共服務通知","數位發展部","A29000000G","數位發展部","廖家翎","gz14055@moda.gov.tw","02-2380-0327","","","HTML/CSS;Javascript;SCSS","AGPL-3.0","本專案為在地化成果，未涉及軟體開發作業。,;",""
+"臺北城市儀表板","https://citydashboard.taipei/","https://github.com/tpe-doit/Taipei-City-Dashboard;","臺北城市儀表板提供使用者進行圖資及數據圖表的交叉查閱，以資料時間、空間及統計等多維度趨勢呈現，並供使用者可針對關注的重點資料，自行客製主題頁面，讓使用者能在虛擬的三維圖台內，更即時的掌握城市脈動與分析相關數據。","地圖資訊呈現;數據呈現","臺北市政府資訊局","379730000A","臺北市政府資訊局","詹士民","wp6223@gov.taipei","02-27208889 ","51752","臺北城市儀表板 ,https://citydashboard.taipei/,無障礙檢測結果：;","Vue.js;Python;SQL Server;Go;PostgreSQL;Redis","AGPL-3","Checkmarx,;",""
+"數位產業自願性溫室氣體盤查系統","","https://github.com/moda-gov-tw/moda-ghg-inventory-system-frontend;","為落實臺灣2050淨零目標, 基於公共程式碼的理念，以公私協力方式發展可行之數位工具, 以數位部為首，示範將公共程式碼模式導入公部門及數位產業，推動政府開放資料、與民協作的倡議, 建立碳盤查系統公共程式，提供各界運用，降低自主碳盤查門檻。","表單填寫/資料上傳;個案管理;數據呈現","數位發展部","A29000000G","數位發展部 民主網絡司","郭智宇","chihyukuo@moda.gov.tw","80345","","","MySQL;ASP.NET Core;C#","網頁文字圖片採取 CC0 授權方式，程式碼採取 MIT 的授權方式","HCL AppScan,;",""
