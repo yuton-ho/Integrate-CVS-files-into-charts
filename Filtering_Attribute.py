@@ -1,15 +1,20 @@
 import pandas as pd
 
 def load_data(filename, nrows=None):
-    df = pd.read_csv('U90Al6XXX-T81_BatchB5R02T2.686W12.68.csv', nrows=5)
+    df = pd.read_csv(filename, nrows=1)
 
     # 取得所有欄位的名稱列表
     all_columns = df.columns.tolist()
 
-    # 使用 Python 列表推導式 (List Comprehension)
-    # 自動找出名稱裡面「不包含」重複影像標記 (Hencky, X, Y, Z) 的欄位
-    useful_columns = [col for col in all_columns if 'Hencky' not in col and 'mm]' not in col]
-    return useful_columns
+    # 統計每個欄位名稱出現次數
+    column_counts = {col: all_columns.count(col) for col in all_columns}
+
+    # 過濾：排除名稱出現超過兩次、以及不需要的影像標記欄位
+    useful_columns = [
+        col
+        for col in all_columns
+        if column_counts[col] <= 2 and 'Hencky' not in col and 'mm]' not in col
+    ]
 
 def main():
     """主程式：讀取資料並顯示篩選結果。"""
